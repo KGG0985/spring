@@ -19,7 +19,8 @@
 	<view-controller path="/member/main" />
 	<view-controller path="/manager/main" />
 	<view-controller path="/admin/main" />
-	<view-controller path="/commons/login"/>
+	<view-controller path="/commons/login" />
+	
 
 	<!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
 	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">

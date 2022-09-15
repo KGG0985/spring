@@ -32,7 +32,8 @@
 		</sec:authorize>	
 	</ul>
 	<sec:authorize access="!isAuthenticated()">
-		<a href="/security/spring_security_login">로그인</a>&nbsp;&nbsp;&nbsp;
+		<!-- <a href="/security/spring_security_login">로그인</a>&nbsp;&nbsp;&nbsp; -->
+		<a href="<%=request.getContextPath() %>/commons/login">로그인</a>&nbsp;&nbsp;&nbsp;
 	</sec:authorize>
 	
 	<sec:authorize access="isAuthenticated()">
